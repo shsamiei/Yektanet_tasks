@@ -56,6 +56,7 @@ class ClickViewSet(viewsets.ModelViewSet):
 
 
 
+
 # class AdvertiserList(generics.ListCreateAPIView):
 #
 #     queryset = Advertiser.objects.all()
