@@ -57,3 +57,4 @@ def viewDaily():
                                       date__day=now.day,
                                       date__hour=now.hour).aggregate(Sum('count'))
 
+
